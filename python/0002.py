@@ -1,7 +1,6 @@
 from collections import defaultdict
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
         table = defaultdict(bool)
         size = len(nums)
         for index, num in enumerate(nums):
