@@ -29,7 +29,6 @@ char * addBinary(char * a, char * b){
     }
     int i,j;
     i = 0, j = strlen(answer)-1;
-    printf("%d", j);
     char tmp;
     while(i < j){
         tmp = answer[i];
